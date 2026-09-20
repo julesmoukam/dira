@@ -112,25 +112,14 @@ a {
 .brand-header {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
   padding-bottom: 12px;
 }
 
-.brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-}
-
-.brand-wordmark {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.18em;
-  font-weight: 600;
-  color: var(--dira-charcoal);
-  text-transform: uppercase;
+.brand-logo {
+  width: 140px;
+  height: auto;
+  display: block;
 }
 
 .brand-tagline {
